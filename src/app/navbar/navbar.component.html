@@ -1,0 +1,44 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="w3-container w3-display-container w3-padding-16">
+      <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+      <h3 class="w3-wide"><b>LOGO</b></h3>
+      <img src="assets/image/imgp.jpg"  style="width:10%">
+    </div>
+    <div class="navbar-header">
+      <a class="navbar-brand active" href="#"><strong>Le Grenier</strong></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="#"><a routerLink="home">Femme</a></li>
+      <li class="#"><a routerLink="homme">Homme</a></li>
+     
+     
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">jeans
+          <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a routerLink="jeans1"> JEans BoyFriend</a></li>
+          <li><a routerLink="jeans2">Jeans Large</a></li>
+          <li><a routerLink="jeans3">vintage jean large taille haute </a></li>
+        </ul>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a routerLink="ajouteremp">Ajouter un Client</a></li>
+            <li><a routerLink="listemployee">gérer les clients</a></li>
+            <li><a routerLink="listequipement">gérer les Articles</a></li>
+            
+           
+          </ul>
+      
+
+    </ul>
+   
+    
+  </div>
+
+</nav>
+
+<router-outlet></router-outlet>
